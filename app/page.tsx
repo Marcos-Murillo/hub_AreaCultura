@@ -48,6 +48,16 @@ const culturalApps = [
     category: "Tareas",
     preview: "/bit.png",
   },
+  {
+    id: 5,
+    title: "Horarios grupos cilturales",
+    description: "Sistema de gestión y registro de horarios de los grupos culturales",
+    url: "https://horarios-cultura.vercel.app/admin",
+    icon: BookOpen,
+    color: "from-yelow-500 to-red-500",
+    category: "Horarios",
+    preview: "/ges.png",
+  },
 ]
 
 export default function CulturaHub() {
