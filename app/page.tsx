@@ -58,6 +58,16 @@ const culturalApps = [
     category: "Horarios",
     preview: "/ges.png",
   },
+  {
+    id: 6,
+    title: "Bitacora Comunicaciones",
+    description: "Sistema de gestión y registro de actividades del equipo de comunicaciones",
+    url: "https://bit-com.vercel.app/",
+    icon: BookOpen,
+    color: "from-yelow-500 to-red-500",
+    category: "Horarios",
+    preview: "/ges.png",
+  },
 ]
 
 export default function CulturaHub() {
@@ -90,7 +100,7 @@ export default function CulturaHub() {
               transition={{ delay: 0.4 }}
             >
               <Badge variant="secondary" className="text-sm px-3 py-1">
-                4 Aplicaciones Activas
+                6 Aplicaciones Activas
               </Badge>
             </motion.div>
           </div>
